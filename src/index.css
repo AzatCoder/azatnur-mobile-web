@@ -24,8 +24,14 @@ body {
 }
 
 .main img {
-  width: 100vw;
-  margin-left: -20px;
+  width: 350px;
+}
+
+@media only screen and (max-width: 430px) {
+  .main img {
+    width: 100vw;
+    margin-left: -20px;
+  }
 }
 
 .main-links {
